@@ -57,19 +57,19 @@ const Header = () => {
               <NavLink to="/about" className={({isActive}) => `${isActive && "font-700"}`}>About</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink to="/products" className={({isActive}) => `${isActive && "font-700"}`}>Diving Courses</NavLink>
+              <NavLink to="/courses" className={({isActive}) => `${isActive && "font-700"}`}>Diving Courses</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink to="/contact" className={({isActive}) => `${isActive && "font-700"}`}>Diving Sites</NavLink>
+              <NavLink to="/sites" className={({isActive}) => `${isActive && "font-700"}`}>Diving Sites</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink to="/" className={({isActive}) => `${isActive && "font-700"}`}>Specials</NavLink>
+              <NavLink to="/specials" className={({isActive}) => `${isActive && "font-700"}`}>Specials</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink to="/" className={({isActive}) => `${isActive && "font-700"}`}>Gallery</NavLink>
+              <NavLink to="/gallery" className={({isActive}) => `${isActive && "font-700"}`}>Gallery</NavLink>
             </li>
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
-              <NavLink to="/" className={({isActive}) => `${isActive && "font-700"}`}>Contact</NavLink>
+              <NavLink to="/contact" className={({isActive}) => `${isActive && "font-700"}`}>Contact</NavLink>
             </li>
           </ul>
         </nav>

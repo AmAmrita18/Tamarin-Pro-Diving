@@ -1,8 +1,15 @@
 import React from 'react'
+import CTA from '../Home/CTA'
+import Testimonials from '../Home/Testimonials'
+import HeroCourses from './HeroCourses'
 
 const DivingCourses = () => {
   return (
-    <div>DivingCourses</div>
+    <div>
+      <HeroCourses/>
+      <CTA/>
+      <Testimonials/>
+    </div>
   )
 }
 

@@ -1,8 +1,15 @@
 import React from 'react'
+import CTA from '../Home/CTA'
+import Testimonials from '../Home/Testimonials'
+import HeroGallery from './HeroGallery'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      <HeroGallery/>
+      <CTA/>
+      <Testimonials/>
+    </div>
   )
 }
 
