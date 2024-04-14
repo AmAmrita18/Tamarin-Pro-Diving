@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <div className="w-full ">
-      <div className="flex justify-between items-center w-[90%] md:px-4 px-0 pt-14 mx-auto">
+      <div className="flex justify-between items-center w-[90%] max-w-[1200px] md:px-4 px-0 pt-14 mx-auto">
         <div className='flex flex-row items-center gap-x-4'>
           <Link to="/">
             <img

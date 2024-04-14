@@ -9,13 +9,18 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IoCallOutline } from "react-icons/io5";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { GrLocation } from "react-icons/gr";
-
+import shadowBG from "../assets/shadowFooter.png"
 const Footer = () => {
   return (
     <div className="w-full bg-[#022A3A]">
-      <div className="">
+      
+      <div className="relative">
+      <div className="absolute top-[-3px]">
+      <img src={shadowBG} alt="" />
+      </div>
         <img src={footerWall} alt="" />
       </div>
+      
       <div
         style={{
           backgroundImage: `url('${footerBG}')`,
@@ -25,7 +30,8 @@ const Footer = () => {
           backgroundPosition: "left",
         }}
       >
-        <div className="w-[90%] py-5 text-white  mx-auto flex flex-col">
+       
+        <div className="w-[90%] max-w-[1200px] py-5 text-white  mx-auto flex flex-col">
           <div className="flex flex-row justify-between gap-10 py-5">
             <div>
               <div className="flex flex-row gap-4 items-center">
@@ -116,9 +122,9 @@ const Footer = () => {
                 Reserve your dive today and embrace the wonders of Tamarin Bay.
                 Experience the marine splendor with top guides.
               </p>
-              <button className="text-[#D5D9DB] font-[700] w-full  text-[20px] bg-[#011219] py-2  mt-4 rounded-full">
-                Book a Dive
-              </button>
+              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-6">
+            Book a Dive{" "}
+          </button>
             </div>
           </div>
           <div className=" border-t mt-4 border-white">
