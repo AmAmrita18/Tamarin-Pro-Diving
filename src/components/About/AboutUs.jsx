@@ -84,7 +84,7 @@ const AboutUs = () => {
               </div>
             </div>
             <div className="absolute top-[330px] left-[-240px]">
-              <img src={arrow} alt="" className="w-[295px] h-[161px] rotate-45 " />
+              <img src={arrow} alt="" className="w-[350px] h-[181px] rotate-45 " />
             </div>
           </div>
         </div>

@@ -20,7 +20,7 @@ const Root = () => (
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/courses' element={<DivingCourses/>} />
-        <Route path='/sites' element={<DivingSites />} />
+        {/* <Route path='/sites' element={<DivingSites />} /> */}
         <Route path='/specials' element={<Specials />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/contact' element={<Contact />} />
