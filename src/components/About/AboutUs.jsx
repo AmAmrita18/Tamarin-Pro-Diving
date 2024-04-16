@@ -2,10 +2,12 @@ import React from "react";
 import image1 from "../../assets/AboutImg1.png";
 import image2 from "../../assets/AboutImg2.png";
 import arrow from "../../assets/homeArrow.png";
+
+
 const AboutUs = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto py-44 flex flex-row">
+      <div className="w-[90%] max-w-[1200px] mx-auto pt-44 pb-64 flex flex-row">
         <div className="w-[50%] relative py-20">
           <img
             src={image2}

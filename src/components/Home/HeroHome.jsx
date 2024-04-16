@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../Header";
-import heroImage from "../../assets/HomeHero.png";
+import heroImage from "/HomeHero.png";
 import map from "../../assets/map.png";
 import logoHero from "../../assets/herologo.png";
 const HeroHome = () => {

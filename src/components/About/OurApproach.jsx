@@ -5,7 +5,7 @@ import arrow from "../../assets/arrowApproach.png";
 const OurApproach = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto pt-96 pb-16 flex flex-row">
+      <div className="w-[90%] max-w-[1200px] mx-auto pt-64 pb-16 flex flex-row">
         <div className="w-[50%] relative py-20">
           <img
             src={image1}
