@@ -59,9 +59,9 @@ const Header = () => {
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <NavLink to="/courses" className={({isActive}) => `${isActive && "font-700"}`}>Diving Courses</NavLink>
             </li>
-            <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
+            {/* <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <NavLink to="#DivingSites" className={({isActive}) => `${isActive && "font-700"}`}>Diving Sites</NavLink>
-            </li>
+            </li> */}
             <li className="transition-all duration-700 ease-in-out  hover:scale-95 ">
               <NavLink to="/specials" className={({isActive}) => `${isActive && "font-700"}`}>Specials</NavLink>
             </li>
