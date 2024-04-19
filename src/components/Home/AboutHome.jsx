@@ -40,7 +40,7 @@ const AboutHome = () => {
               enchanting underwater sites. Dive in and let the ocean's narrative
               unfold around you.
             </p>
-            <button className="bg-[#011219] text-white mt-10 rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white mt-10 rounded-full px-16 py-3">
               See detail{" "}
             </button>
             <div className="absolute top-[180px] left-[-220px]">

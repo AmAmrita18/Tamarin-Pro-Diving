@@ -35,13 +35,13 @@ const Packages = () => {
 
           <div className="w-[70%] pl-24 pt-10">
             <div className="flex flex-row gap-5">
-            <button className="bg-[#011219] text-[14px] text-white font-[700] rounded-full px-7 py-1">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-[14px] text-white font-[700] rounded-full px-7 py-1">
               Basic Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Mid Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Super Packages{" "}
             </button>
             </div>
@@ -76,7 +76,7 @@ const Packages = () => {
               a unique and unforgettable aquatic adventure, where love meets the
               depths of the ocean.
             </p>
-            <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
               Request Quote{" "}
             </button>
           </div>
@@ -88,13 +88,13 @@ const Packages = () => {
 
           <div className="w-[70%] pr-24 pt-10">
           <div className="flex flex-row gap-5">
-            <button className="bg-[#011219] text-[14px] text-white font-[700] rounded-full px-7 py-1">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-[14px] text-white font-[700] rounded-full px-7 py-1">
               Basic Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Mid Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Super Packages{" "}
             </button>
             </div>
@@ -129,7 +129,7 @@ const Packages = () => {
               for non-divers to enjoy the beauty of the sea. Join us and embark
               on a journey where the ocean's secrets await your discovery.{" "}
             </p>
-            <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
               Request Quote{" "}
             </button>
           </div>
@@ -141,13 +141,13 @@ const Packages = () => {
 
           <div className="w-[70%] pl-24 pt-10">
           <div className="flex flex-row gap-5">
-            <button className="bg-[#011219] text-[14px] text-white font-[700] rounded-full px-7 py-1">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-[14px] text-white font-[700] rounded-full px-7 py-1">
               Basic Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Mid Packages{" "}
             </button>
-            <button className="border-[#011219] border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
+            <button className="border-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 border-2 text-[14px] text-[#011219]  rounded-full px-7 py-1 font-[700]">
               Super Packages{" "}
             </button>
             </div>
@@ -182,7 +182,7 @@ const Packages = () => {
               journey into the heart of the ocean's mystery, where every moment
               is a discovery.
             </p>
-            <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
               Request Quote{" "}
             </button>
           </div>

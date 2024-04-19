@@ -44,7 +44,7 @@ const Gallery = () => {
             past coral gardens and into the tranquil deep. Here, the ocean's
             poetry comes to life.
           </p>
-          <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-6">
+          <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-6">
             See more{" "}
           </button>
         </div>

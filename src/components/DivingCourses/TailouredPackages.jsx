@@ -72,7 +72,7 @@ const TailouredPackages = () => {
                 year-olds. Fun, safe underwater exploration in the pool or sea,
                 up to 2m deep.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 Explore{" "}
               </button>
             </div>
@@ -111,7 +111,7 @@ const TailouredPackages = () => {
                 Dive into scuba in just one day! Learn basics in a pool, then
                 the sea, under expert care. For swimmers, 10+, up to 12m deep.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 Explore{" "}
               </button>
             </div>
@@ -151,7 +151,7 @@ const TailouredPackages = () => {
                 Diver course—learn theory, pool skills, and open water dives.
                 For ages 10+, up to 12m.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 ">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 ">
                 Explore{" "}
               </button>
             </div>
@@ -190,7 +190,7 @@ Diver Course
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Earn your PADI Open Water certification to dive globally. Includes theory, pool sessions, and ocean dives. For ages 10+, depth up to 18m.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}
               </button>
             </div>
@@ -228,7 +228,7 @@ Diver Course
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Advance your skills with the PADI Advanced Open Water course. Dive deeper and explore more, including wrecks. Ages 12+, up to 30m depth.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}
               </button>
             </div>
@@ -266,7 +266,7 @@ Diver Course
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Master rescue skills with the PADI Rescue Diver Course. Learn crisis prevention and response, enhancing safety and confidence. Ages 12+, up to 18m.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}
               </button>
             </div>

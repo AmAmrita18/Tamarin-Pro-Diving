@@ -21,9 +21,12 @@ const CTA = () => {
           unseen beauty of Mauritius’ depths. <br /> Reserve your spot beneath
           the waves today and embrace the underwater adventure you deserve.
         </p>
-       <div className="flex justify-center"> <button className="bg-[#011219] text-white mb-5  rounded-full px-16 py-3 mt-12">
-          See more{" "}
-        </button></div>
+        <div className="flex justify-center">
+          {" "}
+          <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white mb-5  rounded-full px-16 py-3 mt-12">
+            See more{" "}
+          </button>
+        </div>
       </div>
     </div>
   );

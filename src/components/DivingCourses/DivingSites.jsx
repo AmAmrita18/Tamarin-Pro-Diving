@@ -41,7 +41,7 @@ const DivingSites = () => {
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Lorem ipsum dolor sit amet consectetur. Urna nibh sem risus nec interdum habitant. Porttitor augue enim turpis maecenas et adipiscing. 
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 See detail{" "}
               </button>
             </div>
@@ -68,7 +68,7 @@ const DivingSites = () => {
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Lorem ipsum dolor sit amet consectetur. Urna nibh sem risus nec interdum habitant. Porttitor augue enim turpis maecenas et adipiscing. 
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 See detail{" "}
               </button>
             </div>
@@ -94,7 +94,7 @@ const DivingSites = () => {
               </div>
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">Lorem ipsum dolor sit amet consectetur. Urna nibh sem risus nec interdum habitant. Porttitor augue enim turpis maecenas et adipiscing. 
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 See detail{" "}
               </button>
             </div>
@@ -121,7 +121,7 @@ const DivingSites = () => {
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
               Lorem ipsum dolor sit amet consectetur. Urna nibh sem risus nec interdum habitant. Porttitor augue enim turpis maecenas et adipiscing. 
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="transition-all duration-700 ease-in-out  hover:scale-95 bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
                 See detail{" "}
               </button>
             </div>

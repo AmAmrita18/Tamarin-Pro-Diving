@@ -21,7 +21,7 @@ const PopularSites = () => {
           </div>
           <div className="flex items-center gap-x-4">
             {" "}
-            <button className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+            <button className="text-[#1A1A1A] transition-all duration-700 ease-in-out  hover:scale-95 text-[20px] leading-[26.59px] font-[700]">
               See more
             </button>
             <div>
@@ -54,7 +54,7 @@ const PopularSites = () => {
                 currents bring eagle rays, stingrays, and schools of tuna into
                 view amidst stunning gorgonian fans and vivid corals.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 See detail{" "}
               </button>
             </div>
@@ -84,7 +84,7 @@ const PopularSites = () => {
                 and vibrant reef fish among stunning boulders and dramatic
                 drop-offs.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
                 See detail{" "}
               </button>
             </div>
@@ -113,7 +113,7 @@ const PopularSites = () => {
                 levels in the tranquil waters of Black River bay, spanning
                 depths from 5m to 18m.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-4">
+              <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 See detail{" "}
               </button>
             </div>

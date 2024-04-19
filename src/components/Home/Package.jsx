@@ -22,7 +22,7 @@ const Package = () => {
           </div>
           <div className="flex items-center gap-x-4">
             {" "}
-            <button className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+            <button className="text-[#1A1A1A] transition-all duration-700 ease-in-out  hover:scale-95 text-[20px] leading-[26.59px] font-[700]">
               See more
             </button>
             <div>
@@ -68,7 +68,7 @@ const Package = () => {
               a unique and unforgettable aquatic adventure, where love meets the
               depths of the ocean.
             </p>
-            <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
               See detail{" "}
             </button>
           </div>
@@ -103,7 +103,7 @@ const Package = () => {
             <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
             Dive into the thrill of The Legendary Passe St Jacques, a haven for the daring. Experience the exhilaration of swimming alongside stingrays and the majestic, albeit elusive, sharks in their natural habitat. While these magnificent creatures have become rarities, the possibility of encountering them adds an element of surprise and adventure to every dive. Join us for an unforgettable journey into the heart of the ocean's mystery, where every moment is a discovery.
             </p>
-            <button className="bg-[#011219] text-white  rounded-full px-16 py-3">
+            <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3">
               See detail{" "}
             </button>
           </div>
