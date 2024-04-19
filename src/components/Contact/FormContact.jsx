@@ -32,7 +32,7 @@ const FormContact = () => {
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder="Enter first name"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className="flex flex-col gap-y-3 w-full">
@@ -49,7 +49,7 @@ const FormContact = () => {
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
                     placeholder="Enter last name"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
                   />{" "}
                 </div>
               </div>
@@ -68,7 +68,7 @@ const FormContact = () => {
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     placeholder="+230 2332xxx"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className="flex flex-col gap-y-3 w-full">
@@ -85,7 +85,7 @@ const FormContact = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="email@domain.com"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700]  transition-all duration-700 ease-in-out  hover:scale-95 placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
                   />
                 </div>
               </div>{" "}
