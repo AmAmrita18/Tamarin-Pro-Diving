@@ -97,12 +97,13 @@ const FormContact = () => {
                   Message*
                 </label>
                 <textarea
+                
                   id="w3review"
                   name="w3review"
                   rows="10"
                   cols="50"
-                  placeholder="Hello, Iám interested in..."
-                  className="bg-transparent tracking-wider pl-3 text-[20px]  text-[#1A1A1A] font-[700]  w-full placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                  placeholder="Your message"
+                  className="bg-transparent tracking-wider pl-3 text-[20px]  text-[#1A1A1A] resize-none font-[700]  w-full placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
                 ></textarea>
               </div>
               <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white mt-10 rounded-full px-16 py-3">
