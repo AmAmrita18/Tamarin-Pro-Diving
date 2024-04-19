@@ -107,7 +107,7 @@ const FormContact = () => {
                 ></textarea>
               </div>
               <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white mt-10 rounded-full px-16 py-3">
-              See detail{" "}
+              Send Message{" "}
             </button>
             </div>
           </form>
