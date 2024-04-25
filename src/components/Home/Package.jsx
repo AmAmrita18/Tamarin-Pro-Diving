@@ -41,7 +41,7 @@ const Package = () => {
           </div>
 
           <div className="md:w-[70%] md:pl-24 pt-10">
-            <h1 className="text-[#1A1A1A] md:mt-6 md:text-[49px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:mt-6 md:text-[49px] text-[30px] md:leading-[59.78px] leading-tight font-[700]">
               Underwater Wedding Proposal
             </h1>
             <div className="flex gap-5 mt-4 items-center">
@@ -53,7 +53,7 @@ const Package = () => {
                 <FaRegStar />
               </div>
               <h1 className="font-[700] leading-[26.69px] text-[20px]">4/5</h1>
-              <div className="flex gap-4 items-center ml-14">
+              <div className="flex gap-4 items-center md:ml-14">
                 <div>
                   <GrLocation className="w-6 h-6 text-[#1A1A1A]" />
                 </div>
@@ -83,7 +83,7 @@ const Package = () => {
           </div>
 
           <div className="md:w-[70%] md:pr-24 pt-10">
-            <h1 className="text-[#1A1A1A] md:mt-6 md:text-[49px] text-[40px]  md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:mt-6 md:text-[49px] text-[30px]  md:leading-[59.78px] leading-tight font-[700]">
             The Legendary Passe St Jacques
             </h1>
             <div className="flex gap-5 mt-4 items-center">
@@ -95,7 +95,7 @@ const Package = () => {
                 <FaRegStar />
               </div>
               <h1 className="font-[700] leading-[26.69px] text-[20px]">4/5</h1>
-              <div className="flex gap-4 items-center ml-14">
+              <div className="flex gap-4 items-center md:ml-14">
                 <div>
                   <GrLocation className="w-6 h-6 text-[#1A1A1A]" />
                 </div>

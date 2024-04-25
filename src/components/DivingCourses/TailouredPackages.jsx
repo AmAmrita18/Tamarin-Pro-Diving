@@ -15,7 +15,7 @@ import img6 from "../../assets/Mask group (6).png";
 const TailouredPackages = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 py-16">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 pt-16 md:pt-0">
         <div className="flex md:flow-row flex-col justify-between">
           <div className="">
             <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
@@ -40,7 +40,7 @@ const TailouredPackages = () => {
             </p>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-16">
+        <div className="grid md:grid-cols-3 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-8">
           <div>
             <div>
               <img src={img1} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
@@ -49,14 +49,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 Bubblemaker – Try Dive
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -71,7 +71,7 @@ const TailouredPackages = () => {
                   8-10yo
                 </h1>
               </div>
-              <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
+              <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px] ">
                 Discover diving's joy with our Bubblemaker program for 8-10
                 year-olds. Fun, safe underwater exploration in the pool or sea,
                 up to 2m deep.
@@ -89,14 +89,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 Initiation Dive
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -128,14 +128,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 PADI – Scuba Diver Course
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c] " />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c] " />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c] " />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c] " />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -168,14 +168,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 PADI | Open Water Diver Course
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -208,14 +208,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 PADI – Advanced Open Water Diver
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -248,14 +248,14 @@ const TailouredPackages = () => {
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 PADI – Rescue Diver Course
               </h1>
-              <div className="flex gap-5 mt-4 items-center">
+              <div className="flex md:gap-5 gap-5 mt-4 items-center">
                 <div className="  flex ">
-                  <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
+                  <GoDotFill className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
+                  <GoDot className="md:w-[30px] md:h-[30px] w-[20px] h-[20px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>

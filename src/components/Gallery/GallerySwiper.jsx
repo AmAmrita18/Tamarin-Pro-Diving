@@ -67,7 +67,7 @@ const GallerySwiper = () => {
         <SwiperSlide><img src={img2} alt="" className='w-[500px] h-[400px] object-cover'/></SwiperSlide>
         <SwiperSlide>  <div className="relative">
             <img src={img3} alt="" className="w-[500px] h-[400px] object-cover" />
-            <h1 className="absolute left-[80px] top-[180px] text-white text-[36px] leading-[48.75px] font-[700]">
+            <h1 className="absolute md:left-[80px] left-[45px] top-[180px] text-white text-[36px] leading-[48.75px] font-[700]">
               Tamarin Bay
             </h1>
           </div></SwiperSlide>

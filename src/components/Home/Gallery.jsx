@@ -9,19 +9,19 @@ const Gallery = () => {
       <div className="w-[90%] flex md:flex-row flex-col-reverse max-w-[1200px] mx-auto md:px-0 px-4 md:py-36 py-16">
         <div className="md:w-[65%] grid grid-cols-2 md:gap-x-8 gap-x-4 md:gap-y-8 gap-y-4">
           <div>
-            <img src={image1} alt="" className="w-[374px] md:h-[553px] h-[400px] object-cover" />
+            <img src={image1} alt="" className="w-[374px] md:h-[553px] h-[350px] object-cover" />
           </div>
-          <div className="md:mt-[186px] mt-[140px] ">
+          <div className="md:mt-[186px] mt-[90px] ">
             <img src={image2} alt="" className="w-[374px] md:h-[363px] h-[260px] object-cover" />
           </div>
           <div className="relative">
             <img src={image3} alt="" className="w-[374px] md:h-[363px] h-[260px] object-cover" />
-            <h1 className="absolute md:left-[80px] md:bottom-[350px] left-[30px] bottom-[230px] text-white md:text-[36px] text-[25px] md:leading-[48.75px] font-[700]">
+            <h1 className="absolute md:left-[80px] md:bottom-[350px] left-[25px] bottom-[190px] text-white md:text-[36px] text-[25px] md:leading-[48.75px] font-[700]">
               Tamarin Bay
             </h1>
           </div>
           <div>
-            <img src={image4} alt="" className="w-[374px] md:h-[553px] h-[400px] object-cover" />
+            <img src={image4} alt="" className="w-[374px] md:h-[553px] h-[350px] object-cover" />
           </div>
         </div>
 

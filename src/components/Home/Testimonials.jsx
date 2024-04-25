@@ -57,7 +57,7 @@ const Testimonials = () => {
             </div>
             <div className="flex gap-8">
               <div>
-                <img src={peop2} alt="" className="md:w-[192px] md:h-[62px] w-[232px] h-[40px]" />
+                <img src={peop2} alt="" className="md:w-[192px] md:h-[62px] w-[242px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">

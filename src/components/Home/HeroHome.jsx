@@ -34,7 +34,7 @@ const HeroHome = () => {
             famous dive sites swiftly by boat, and let the serene waters of
             Tamarin Bay transform your diving dreams into reality.
           </p>
-          <div className="flex absolute md:right-[-115px] right-[70px] md:w-[180px] md:h-[180px] w-[100px] h-[100px]">
+          <div className="flex absolute mt-5 md:mt-0 md:right-[-115px]  right-[70px] md:w-[180px] md:h-[180px] w-[100px] h-[100px]">
             <img src={logoHero} alt="" />
           </div>
         </div>
