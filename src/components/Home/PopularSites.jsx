@@ -38,7 +38,7 @@ const PopularSites = () => {
               <img src={site1} alt="" className="md:w-[457px] md:h-[488px] w-[350px] h-[480px]" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 Passe St Jacques
               </h1>
               <div className="flex gap-5 mt-4 items-center">
@@ -67,7 +67,7 @@ const PopularSites = () => {
               <img src={site2} alt="" className="w-[457px] h-[488px]" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 Cathedral
               </h1>
               <div className="flex gap-5 mt-4 items-center">
@@ -97,7 +97,7 @@ const PopularSites = () => {
               <img src={site3} alt="" className="w-[457px] h-[488px]" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
                 Silvana
               </h1>
               <div className="flex gap-5 mt-4 items-center">

@@ -30,7 +30,7 @@ const Testimonials = () => {
           <div className="flex flex-col gap-10 md:mr-20 pb-20">
             <div className="flex gap-8">
               <div>
-                <img src={peop1} alt="" className="md:w-[172px] md:h-[62px] w-[172px] h-[40px]" />
+                <img src={peop1} alt="" className="md:w-[172px] md:h-[62px] w-[192px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">
@@ -57,7 +57,7 @@ const Testimonials = () => {
             </div>
             <div className="flex gap-8">
               <div>
-                <img src={peop2} alt="" className="md:w-[192px] md:h-[62px] w-[202px] h-[40px]" />
+                <img src={peop2} alt="" className="md:w-[192px] md:h-[62px] w-[232px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">
@@ -85,7 +85,7 @@ const Testimonials = () => {
             </div>
             <div className="flex gap-8">
               <div>
-                <img src={peop3} alt="" className="md:w-[92px] md:h-[58px] w-[92px] h-[40px]" />
+                <img src={peop3} alt="" className="md:w-[92px] md:h-[58px] w-[122px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">

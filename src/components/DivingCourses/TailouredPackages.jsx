@@ -21,8 +21,12 @@ const TailouredPackages = () => {
             <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
               Tailored Packages
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Diverse Diving <br />
+              Courses Curated For You{" "}
+            </h1>
+            <h1 className="text-[#1A1A1A] md:hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+              Diverse Diving 
               Courses Curated For You{" "}
             </h1>
           </div>
@@ -39,7 +43,7 @@ const TailouredPackages = () => {
         <div className="grid md:grid-cols-3 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-16">
           <div>
             <div>
-              <img src={img1} alt="" className="w-[457px] h-[488px]" />
+              <img src={img1} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -63,7 +67,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px] md:text-[23px] text-[20px]">
                   8-10yo
                 </h1>
               </div>
@@ -79,7 +83,7 @@ const TailouredPackages = () => {
           </div>
           <div>
             <div>
-              <img src={img2} alt="" className="w-[457px] h-[488px]" />
+              <img src={img2} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -103,7 +107,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px]  md:text-[23px] text-[20px]">
                   10+yo
                 </h1>
               </div>
@@ -118,7 +122,7 @@ const TailouredPackages = () => {
           </div>
           <div>
             <div>
-              <img src={img3} alt="" className="w-[457px] h-[488px]" />
+              <img src={img3} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -128,10 +132,10 @@ const TailouredPackages = () => {
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
-                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] " />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -142,7 +146,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px]  md:text-[23px] text-[20px]">
                   10+yo
                 </h1>
               </div>
@@ -158,7 +162,7 @@ const TailouredPackages = () => {
           </div>
           <div>
             <div>
-              <img src={img4} alt="" className="w-[457px] h-[488px]" />
+              <img src={img4} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -182,7 +186,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px]  md:text-[23px] text-[20px]">
                   10+yo
                 </h1>
               </div>
@@ -198,7 +202,7 @@ const TailouredPackages = () => {
           </div>
           <div>
             <div>
-              <img src={img5} alt="" className="w-[457px] h-[488px]" />
+              <img src={img5} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -222,7 +226,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px]  md:text-[23px] text-[20px]">
                   12+yo
                 </h1>
               </div>
@@ -238,7 +242,7 @@ const TailouredPackages = () => {
           </div>
           <div>
             <div>
-              <img src={img6} alt="" className="w-[457px] h-[488px]" />
+              <img src={img6} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -262,7 +266,7 @@ const TailouredPackages = () => {
                   </p>
                 </div>
 
-                <h1 className="font-[700] leading-[26.69px] text-[23px]">
+                <h1 className="font-[700] leading-[26.69px] md:text-[23px] text-[20px]">
                   12+yo
                 </h1>
               </div>

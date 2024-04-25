@@ -21,10 +21,10 @@ const DivingSites = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 md:px-28  gap-x-32 md:gap-y-32 md:py-20 py-8">
           <div>
             <div>
-              <img src={img1} alt="" className="w-[457px] h-[598px]" />
+              <img src={img1} alt="" className="md:w-[457px] md:h-[598px] w-[300px] h-[398px]" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
               Canyon
               </h1>
               <div className="flex gap-5 mt-4 items-center">
@@ -48,10 +48,10 @@ const DivingSites = () => {
           </div>
           <div className="md:mt-24 mt-16">
             <div>
-              <img src={img2} alt="" className="w-[457px] h-[598px]" />
+              <img src={img2} alt="" className="md:w-[457px] md:h-[598px] w-[300px] h-[398px]" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
               Aqua Tamarin
               </h1>
               <div className="flex gap-5 mt-4 items-center">
@@ -75,10 +75,10 @@ const DivingSites = () => {
           </div>
           <div>
             <div>
-              <img src={img3} alt="" className="w-[457px] h-[598px] mt-16" />
+              <img src={img3} alt="" className="md:w-[457px] md:h-[598px] w-[300px] h-[398px] mt-16" />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
               Colline Tamarin
               </h1>
               <div className="flex gap-5 mt-4 items-center">
@@ -101,10 +101,10 @@ const DivingSites = () => {
           </div>
           <div className="mt-16 md:mt-24 ">
             <div>
-              <img src={img4} alt="" className="w-[457px] h-[598px]" />
+              <img src={img4} alt="" className="md:w-[457px] md:h-[598px] w-[300px] h-[398px] " />
             </div>
             <div className="">
-              <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
+              <h1 className="md:text-[40px] text-[30px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
               Jardin Corail
               </h1>
               <div className="flex gap-5 mt-4 items-center">

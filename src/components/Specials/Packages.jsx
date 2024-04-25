@@ -38,7 +38,7 @@ const Packages = () => {
           </div>
 
           <div className="md:w-[70%] md:pl-24 pt-10">
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row md:gap-5 gap-2">
             <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 md:text-[14px] text-[10px] text-white font-[700] rounded-full md:px-7 px-3 py-1">
               Basic Packages{" "}
             </button>
@@ -49,7 +49,7 @@ const Packages = () => {
               Super Packages{" "}
             </button>
             </div>
-            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[35px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[30px] md:leading-[59.78px] leading-tight font-[700]">
               Underwater Wedding Proposal
             </h1>
             <div className="flex gap-5 mt-4 items-center">
@@ -65,12 +65,12 @@ const Packages = () => {
                 <div>
                   <GrLocation className="w-6 h-6 text-[#1A1A1A]" />
                 </div>
-                <p className="leading-[19.94px] text-[20px] font-[700] text-[#1A1A1A]">
+                <p className="leading-[19.94px] md:text-[20px] text-[16px] font-[700] text-[#1A1A1A]">
                   Tamarin Bay, Mauritius
                 </p>
               </div>
             </div>
-            <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
+            <p className="text-[#1A1A1A] md:my-10 my-5 leading-[15.94px] font-[400] text-[14px]">
               Dive into romance with our exclusive Underwater Wedding Proposal
               package. Let us orchestrate an unforgettable moment beneath the
               waves, tailored to your comfort and confidence level, whether
@@ -91,7 +91,7 @@ const Packages = () => {
           </div>
 
           <div className="md:w-[70%] md:pr-24 pt-10">
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row md:gap-5 gap-2">
             <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 md:text-[14px] text-[10px] text-white font-[700] rounded-full md:px-7 px-3 py-1">
               Basic Packages{" "}
             </button>
@@ -102,7 +102,7 @@ const Packages = () => {
               Super Packages{" "}
             </button>
             </div>
-            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[35px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[30px] md:leading-[59.78px] leading-tight font-[700]">
               Snorkeling Trips
             </h1>
             <div className="flex gap-5 mt-4 items-center">
@@ -118,12 +118,12 @@ const Packages = () => {
                 <div>
                   <GrLocation className="w-6 h-6 text-[#1A1A1A]" />
                 </div>
-                <p className="leading-[19.94px] text-[20px] font-[700] text-[#1A1A1A]">
+                <p className="leading-[19.94px] md:text-[20px] text-[16px] font-[700] text-[#1A1A1A]">
                   Tamarin Bay, Mauritius
                 </p>
               </div>
             </div>
-            <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
+            <p className="text-[#1A1A1A] md:my-10 my-5 leading-[15.94px] font-[400] text-[14px]">
               Discover the wonders beneath the surface with our captivating
               Snorkeling Trips. Perfect for those who prefer to explore without
               diving, this experience welcomes non-divers to marvel at the
@@ -144,7 +144,7 @@ const Packages = () => {
           </div>
 
           <div className="md:w-[70%] md:pl-24 pt-10">
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row md:gap-5 gap-2">
             <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 md:text-[14px] text-[10px] text-white font-[700] rounded-full md:px-7 px-3 py-1">
               Basic Packages{" "}
             </button>
@@ -155,7 +155,7 @@ const Packages = () => {
               Super Packages{" "}
             </button>
             </div>
-            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[35px]  md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[49px] text-[30px]  md:leading-[59.78px] leading-tight font-[700]">
               The Legendary Passe St Jacques
             </h1>
             <div className="flex gap-5 mt-4 items-center">
@@ -171,12 +171,12 @@ const Packages = () => {
                 <div>
                   <GrLocation className="w-6 h-6 text-[#1A1A1A]" />
                 </div>
-                <p className="leading-[19.94px] text-[20px] font-[700] text-[#1A1A1A]">
+                <p className="leading-[19.94px] md:text-[20px] text-[16px] font-[700] text-[#1A1A1A]">
                   Passe St Jacques
                 </p>
               </div>
             </div>
-            <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
+            <p className="text-[#1A1A1A] md:my-10 my-5 leading-[15.94px] font-[400] text-[14px]">
               Dive into the thrill of The Legendary Passe St Jacques, a haven
               for the daring. Experience the exhilaration of swimming alongside
               stingrays and the majestic, albeit elusive, sharks in their

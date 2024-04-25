@@ -22,11 +22,11 @@ const HeroHome = () => {
             Discover The <br />
             Sublime Depths <br /> Of Tamarin Bay
           </h1>
-          <h1 className="font-[700] md:hidden  md:text-[70px] text-[50px] text-white md:leading-[85.15px]">
-            Discover The <br/>
-            Sublime Depths  Of Tamarin Bay
+          <h1 className="font-[700] md:hidden  md:text-[70px] text-[45px] text-white md:leading-[85.15px]">
+            Discover The
+            Sublime Depths Of Tamarin Bay
           </h1>
-          <p className="font-[400] leading-[19.94px] text-[15px] text-white mt-12">
+          <p className="font-[400] leading-[19.94px] text-[15px] text-white md:mt-12 mt-5">
             Nestled on the scenic west coast of Mauritius, our centre is your
             gateway to the underwater marvels of the island. Experience
             unrivalled clarity and vibrant marine life as we guide you through

@@ -41,7 +41,7 @@ const TourGuide = () => {
           <div className="relative">
             <img src={guy4} alt="" />
             <div className="absolute md:top-[150px] md:left-[30px] top-[10px] left-[20px]">
-              <h1 className=" mt-6 md:text-[35px] text-[18px] mb-4 leading-[40.78px] text-white font-[700]">
+              <h1 className=" mt-6 md:text-[35px] text-[16px] md:mb-4 leading-[40.78px] text-white font-[700]">
                 Oliver DADA
               </h1>
               <div className="flex flex-col gap-y-2">
