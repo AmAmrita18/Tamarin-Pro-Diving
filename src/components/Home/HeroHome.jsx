@@ -16,11 +16,15 @@ const HeroHome = () => {
       }}
     >
       <Header />
-      <div className="w-[90%]  max-w-[1200px] mx-auto flex flex-row">
-        <div className=" relative w-[50%] pr-8 py-32 h-screen">
-          <h1 className="font-[700] text-[70px] text-white leading-[85.15px]">
+      <div className="w-[90%]  max-w-[1200px] mx-auto md:px-0 px-4 flex flex-row">
+        <div className=" relative md:w-[50%] md:pr-8 md:py-32 py-16 h-screen">
+          <h1 className="font-[700] md:block hidden md:text-[70px] text-[50px] text-white md:leading-[85.15px]">
             Discover The <br />
             Sublime Depths <br /> Of Tamarin Bay
+          </h1>
+          <h1 className="font-[700] md:hidden  md:text-[70px] text-[50px] text-white md:leading-[85.15px]">
+            Discover The <br/>
+            Sublime Depths  Of Tamarin Bay
           </h1>
           <p className="font-[400] leading-[19.94px] text-[15px] text-white mt-12">
             Nestled on the scenic west coast of Mauritius, our centre is your
@@ -30,7 +34,7 @@ const HeroHome = () => {
             famous dive sites swiftly by boat, and let the serene waters of
             Tamarin Bay transform your diving dreams into reality.
           </p>
-          <div className="flex absolute right-[-115px] w-[180px] h-[180px]">
+          <div className="flex absolute md:right-[-115px] right-[70px] md:w-[180px] md:h-[180px] w-[100px] h-[100px]">
             <img src={logoHero} alt="" />
           </div>
         </div>

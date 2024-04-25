@@ -9,19 +9,19 @@ const FormContact = () => {
 
   return (
     <div className="w-full">
-      <div className="w-[90%] mx-auto max-w-[1200px] h-full flex flex-row py-32">
-        <div className="w-[55%] pr-24">
-          <h1 className="text-[#1A1A1A] mb-6 text-[57px] leading-[59.78px] font-[700]">
+      <div className="w-[90%] mx-auto md:px-0 px-4 max-w-[1200px] h-full flex md:flex-row flex-col-reverse md:py-32 py-16">
+        <div className="md:w-[55%] md:pr-24">
+          <h1 className="text-[#1A1A1A] mb-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Get In Touch
           </h1>
 
           <form action="#">
             <div>
-              <div className="flex flex-row gap-12 mb-5">
+              <div className="flex md:flex-row flex-col md:gap-12 mb-5">
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
-                    className="text-[#1A1A1A] mt-6 text-[35px] leading-[45.78px] font-[700]"
+                    className="text-[#1A1A1A] mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
                   >
                     First Name*
                   </label>
@@ -32,13 +32,13 @@ const FormContact = () => {
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder="Enter first name"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[15px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[15px] outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
-                    className="text-[#1A1A1A] mt-6 text-[35px] leading-[45.78px] font-[700]"
+                    className="text-[#1A1A1A] mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
                   >
                     Last Name*
                   </label>
@@ -49,15 +49,15 @@ const FormContact = () => {
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
                     placeholder="Enter last name"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[15px]  text-[#1A1A1A] font-[700] placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[15px] outline outline-0 focus:outline-0"
                   />{" "}
                 </div>
               </div>
-              <div className="flex flex-row gap-12 mb-5">
+              <div className="flex md:flex-row flex-col md:gap-12 mb-5">
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
-                    className="text-[#1A1A1A] mt-6 text-[35px] leading-[45.78px] font-[700]"
+                    className="text-[#1A1A1A] md:mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
                   >
                     Your Phone*
                   </label>
@@ -68,13 +68,13 @@ const FormContact = () => {
                     value={phoneNumber}
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     placeholder="+230 2332xxx"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[15px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[15px] outline outline-0 focus:outline-0"
                   />
                 </div>
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
-                    className="text-[#1A1A1A] mt-6 text-[35px] leading-[45.78px] font-[700]"
+                    className="text-[#1A1A1A] mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
                   >
                     Your Email*
                   </label>
@@ -85,14 +85,14 @@ const FormContact = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="email@domain.com"
-                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[20px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
+                    className="bg-transparent lg:w-[100%] md:w-[230px] w-full text-[15px]  text-[#1A1A1A] font-[700]  placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[15px] outline outline-0 focus:outline-0"
                   />
                 </div>
               </div>{" "}
               <div className="flex flex-col gap-y-3 w-full">
                 <label
                   htmlFor=""
-                  className="text-[#1A1A1A] mt-6 text-[35px] leading-[45.78px] font-[700]"
+                  className="text-[#1A1A1A] md:mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
                 >
                   Message*
                 </label>
@@ -100,7 +100,7 @@ const FormContact = () => {
                 
                   id="w3review"
                   name="w3review"
-                  rows="10"
+                  rows="8"
                   cols="50"
                   placeholder="Your message"
                   className="bg-transparent tracking-wider pl-3 text-[20px]  text-[#1A1A1A] resize-none font-[700]  w-full placeholder:text-[#1A1A1A] placeholder:font-[700] border rounded-3xl py-4 px-6 border-[#1A1A1A] placeholder:text-[20px] outline outline-0 focus:outline-0"
@@ -112,8 +112,8 @@ const FormContact = () => {
             </div>
           </form>
         </div>
-        <div className="w-[45%]">
-          <img src={formImg} alt="" className="h-[920px] w-[680px]"/>
+        <div className="md:w-[45%] md:block hidden md:mt-0 mt-8">
+          <img src={formImg} alt="" className="h-[920px] w-[680px] object-cover"/>
         </div>
       </div>
     </div>

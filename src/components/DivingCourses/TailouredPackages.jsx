@@ -6,29 +6,29 @@ import site3 from "../../assets/site3.png";
 import { GoDotFill } from "react-icons/go";
 import { GoDot } from "react-icons/go";
 import { PiArrowsVerticalThin } from "react-icons/pi";
-import img1 from "../../assets/Mask group (1).png"
-import img2 from "../../assets/Mask group (2).png"
-import img3 from "../../assets/Mask group (3).png"
-import img4 from "../../assets/Mask group (4).png"
-import img5 from "../../assets/Mask group (5).png"
-import img6 from "../../assets/Mask group (6).png"
+import img1 from "../../assets/Mask group (1).png";
+import img2 from "../../assets/Mask group (2).png";
+import img3 from "../../assets/Mask group (3).png";
+import img4 from "../../assets/Mask group (4).png";
+import img5 from "../../assets/Mask group (5).png";
+import img6 from "../../assets/Mask group (6).png";
 const TailouredPackages = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto py-32">
-        <div className="flex flow-row justify-between">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 py-16">
+        <div className="flex md:flow-row flex-col justify-between">
           <div className="">
-            <h2 className="text-[#1A1A1A] text-[30px] leading-[26.59px] font-[700]">
+            <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
               Tailored Packages
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Diverse Diving <br />
               Courses Curated For You{" "}
             </h1>
           </div>
-          <div className="flex items-center justify-end w-[30%] gap-x-4">
+          <div className="flex items-center justify-end md:w-[30%] md:mt-0 mt-5 gap-x-4">
             {" "}
-            <p className="leading-[19.94px] text-[13px] font-[400] text-[#1A1A1A]">
+            <p className="leading-[19.94px]  text-[13px] font-[400] text-[#1A1A1A]">
               Lorem ipsum dolor sit amet consectetur. Urna nibh sem risus nec
               interdum habitant. Porttitor augue enim turpis maecenas et
               adipiscing. Dis ipsum vitae ultrices vulputate sem quis dui eu.
@@ -36,7 +36,7 @@ const TailouredPackages = () => {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-x-16 gap-y-24 mt-20">
+        <div className="grid md:grid-cols-3 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-16">
           <div>
             <div>
               <img src={img1} alt="" className="w-[457px] h-[488px]" />
@@ -49,10 +49,10 @@ const TailouredPackages = () => {
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -89,10 +89,10 @@ const TailouredPackages = () => {
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -128,10 +128,10 @@ const TailouredPackages = () => {
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -162,17 +162,16 @@ const TailouredPackages = () => {
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
-              PADI | Open Water 
-Diver Course
+                PADI | Open Water Diver Course
               </h1>
               <div className="flex gap-5 mt-4 items-center">
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -188,7 +187,9 @@ Diver Course
                 </h1>
               </div>
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
-              Earn your PADI Open Water certification to dive globally. Includes theory, pool sessions, and ocean dives. For ages 10+, depth up to 18m.
+                Earn your PADI Open Water certification to dive globally.
+                Includes theory, pool sessions, and ocean dives. For ages 10+,
+                depth up to 18m.
               </p>
               <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}
@@ -201,16 +202,16 @@ Diver Course
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
-              PADI – Advanced Open Water Diver
+                PADI – Advanced Open Water Diver
               </h1>
               <div className="flex gap-5 mt-4 items-center">
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -226,7 +227,9 @@ Diver Course
                 </h1>
               </div>
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
-              Advance your skills with the PADI Advanced Open Water course. Dive deeper and explore more, including wrecks. Ages 12+, up to 30m depth.
+                Advance your skills with the PADI Advanced Open Water course.
+                Dive deeper and explore more, including wrecks. Ages 12+, up to
+                30m depth.
               </p>
               <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}
@@ -239,16 +242,16 @@ Diver Course
             </div>
             <div className="">
               <h1 className="text-[27px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
-              PADI – Rescue Diver Course
+                PADI – Rescue Diver Course
               </h1>
               <div className="flex gap-5 mt-4 items-center">
                 <div className="  flex ">
                   <GoDotFill className="w-[30px] h-[30px] text-[#42C9E6]" />
 
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
-                  <GoDot className="w-[30px] h-[30px]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
+                  <GoDot className="w-[30px] h-[30px] text-[#2b2c2c]" />
                 </div>
                 <div className="flex flow-row ">
                   <div>
@@ -264,7 +267,9 @@ Diver Course
                 </h1>
               </div>
               <p className="text-[#1A1A1A] my-10 leading-[15.94px] font-[400] text-[14px]">
-              Master rescue skills with the PADI Rescue Diver Course. Learn crisis prevention and response, enhancing safety and confidence. Ages 12+, up to 18m.
+                Master rescue skills with the PADI Rescue Diver Course. Learn
+                crisis prevention and response, enhancing safety and confidence.
+                Ages 12+, up to 18m.
               </p>
               <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white  rounded-full px-16 py-3 mt-4">
                 Explore{" "}

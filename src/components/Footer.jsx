@@ -9,18 +9,17 @@ import { AiFillInstagram } from "react-icons/ai";
 import { IoCallOutline } from "react-icons/io5";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { GrLocation } from "react-icons/gr";
-import shadowBG from "../assets/shadowFooter.png"
+import shadowBG from "../assets/shadowFooter.png";
 const Footer = () => {
   return (
     <div className="w-full bg-[#022A3A]">
-      
       <div className="relative">
-      <div className="absolute top-[-3px]">
-      <img src={shadowBG} alt="" />
-      </div>
+        <div className="absolute top-[-3px]">
+          <img src={shadowBG} alt="" />
+        </div>
         <img src={footerWall} alt="" />
       </div>
-      
+
       <div
         style={{
           backgroundImage: `url('${footerBG}')`,
@@ -30,9 +29,8 @@ const Footer = () => {
           backgroundPosition: "left",
         }}
       >
-       
-        <div className="w-[90%] max-w-[1200px] py-5 text-white  mx-auto flex flex-col">
-          <div className="flex flex-row justify-between gap-10 py-5">
+        <div className="w-[90%] max-w-[1200px] py-5 text-white  mx-auto md:px-0 px-4 flex flex-col">
+          <div className="flex md:flex-row flex-col justify-between gap-10 py-5">
             <div>
               <div className="flex flex-row gap-4 items-center">
                 <div>
@@ -65,29 +63,31 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
-              <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] items-center">
-                Page
-              </h1>
-              <ul className="text-[#D5D9DB] font-[400] py-4 w-28 gap-y-2 flex flex-col text-[15px]">
-                <li className="">Home</li>
-                <li className="">About Us</li>
-                <li className="">Diving Courses </li>
-                <li className="">Diving Sites </li>
-                <li className="">Specials </li>
-                <li className="">Gallery </li>
-                <li className="">Contact </li>
-              </ul>
-            </div>
+            <div className="flex md:gap-5 gap-16 flex-row">
+              <div>
+                <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] items-center">
+                  Page
+                </h1>
+                <ul className="text-[#D5D9DB] font-[400] py-4 w-28 gap-y-2 flex flex-col text-[15px]">
+                  <li className="">Home</li>
+                  <li className="">About Us</li>
+                  <li className="">Diving Courses </li>
+                  <li className="">Diving Sites </li>
+                  <li className="">Specials </li>
+                  <li className="">Gallery </li>
+                  <li className="">Contact </li>
+                </ul>
+              </div>
 
-            <div>
-              <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] items-center">
-                Links{" "}
-              </h1>
-              <ul className="text-[#D5D9DB] font-[400] py-4  w-28 gap-y-2 flex flex-col text-[15px]">
-                <li className="">Term of Use </li>
-                <li className="">Privacy Policy</li>
-              </ul>
+              <div>
+                <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] items-center">
+                  Links{" "}
+                </h1>
+                <ul className="text-[#D5D9DB] font-[400] py-4  w-28 gap-y-2 flex flex-col text-[15px]">
+                  <li className="">Term of Use </li>
+                  <li className="">Privacy Policy</li>
+                </ul>
+              </div>
             </div>
 
             <div>
@@ -123,8 +123,8 @@ const Footer = () => {
                 Experience the marine splendor with top guides.
               </p>
               <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-6">
-            Book a Dive{" "}
-          </button>
+                Book a Dive{" "}
+              </button>
             </div>
           </div>
           <div className=" border-t mt-4 border-white">

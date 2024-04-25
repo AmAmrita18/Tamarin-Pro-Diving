@@ -9,19 +9,22 @@ import { FaRegStar } from "react-icons/fa";
 const PopularSites = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto py-32">
-        <div className="flex flow-row justify-between">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 py-16">
+        <div className="flex md:flow-row flex-col justify-between">
           <div className="">
             <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
               Popular Diving Sites
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Popular Diving Sites <br /> On the West Coast
             </h1>
+            <h1 className="text-[#1A1A1A] md:hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+              Popular Diving Sites  On the West Coast
+            </h1>
           </div>
-          <div className="flex items-center gap-x-4">
+          <div className="flex md:mt-0 mt-5 items-center gap-x-4">
             {" "}
-            <button className="text-[#1A1A1A] transition-all duration-700 ease-in-out  hover:scale-95 text-[20px] leading-[26.59px] font-[700]">
+            <button className="text-[#1A1A1A] transition-all duration-700 ease-in-out  hover:scale-95 text-[20px] md:leading-[26.59px] leading-tight font-[700]">
               See more
             </button>
             <div>
@@ -29,10 +32,10 @@ const PopularSites = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-x-16 py-20">
+        <div className="grid lg:grid-cols-3 gap-y-16 md:grid-cols-2 grid-cols-1 gap-x-16 md:py-20 py-16">
           <div>
             <div>
-              <img src={site1} alt="" className="w-[457px] h-[488px]" />
+              <img src={site1} alt="" className="md:w-[457px] md:h-[488px] w-[350px] h-[480px]" />
             </div>
             <div className="">
               <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">

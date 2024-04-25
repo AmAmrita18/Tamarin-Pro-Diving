@@ -10,27 +10,27 @@ import peop3 from "../../assets/people3.png";
 const Testimonials = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto  flex ">
-        <div className="w-[50%]">
-          <div className="my-20">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 flex md:flex-row flex-col-reverse">
+        <div className="md:w-[50%]">
+          <div className="my-20 md:block hidden">
             <img
               src={arrow}
               alt=""
               className="w-[455px] h-[241px] -rotate-12"
             />
           </div>
-          <div className="pt-28 pb-12">
-            <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+          <div className="md:pt-28  pb-12">
+            <h2 className="text-[#1A1A1A] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
               Testimonials
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] leading-[59.78px] font-[700]">
               What they say <br /> about us?
             </h1>
           </div>
-          <div className="flex flex-col gap-10 mr-20 pb-20">
+          <div className="flex flex-col gap-10 md:mr-20 pb-20">
             <div className="flex gap-8">
               <div>
-                <img src={peop1} alt="" className="w-[172px] h-[62px]" />
+                <img src={peop1} alt="" className="md:w-[172px] md:h-[62px] w-[172px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">
@@ -57,7 +57,7 @@ const Testimonials = () => {
             </div>
             <div className="flex gap-8">
               <div>
-                <img src={peop2} alt="" className="w-[192px] h-[62px]" />
+                <img src={peop2} alt="" className="md:w-[192px] md:h-[62px] w-[202px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">
@@ -85,7 +85,7 @@ const Testimonials = () => {
             </div>
             <div className="flex gap-8">
               <div>
-                <img src={peop3} alt="" className="w-[92px] h-[58px]" />
+                <img src={peop3} alt="" className="md:w-[92px] md:h-[58px] w-[92px] h-[40px]" />
               </div>
               <div className="flex flex-col gap-5">
                 <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px]">
@@ -96,7 +96,7 @@ const Testimonials = () => {
                   <div>
                     <img src={owlLogo} alt="" className="w-[30px] h-[20px]" />
                   </div>
-                  <div className=" gap-2 flex ">
+                  <div className=" gap-2 flex">
                     <FaStar className="text-[#FF7A2F]" />
                     <FaStar className="text-[#FF7A2F]" />
                     <FaStar className="text-[#FF7A2F]" />
@@ -111,12 +111,12 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="w-[50%] relative ">
-          <div className="absolute top-0 -left-40 ">
+        <div className="md:w-[50%] md:block hidden md:relative ">
+          <div className="absolute top-0 md:-left-40 left-0 ">
             <img
               src={image2}
               alt=""
-              className="w-[400px] h-[470px]"
+              className="md:w-[400px] md:h-[470px] w-[250px] h-[400px]"
               loading="lazy"
             />
           </div>
@@ -124,7 +124,7 @@ const Testimonials = () => {
             <img
               src={image1}
               alt=""
-              className="w-[781px] h-[810px]"
+              className="md:w-[781px] md:h-[810px] "
               loading="lazy"
             />
           </div>

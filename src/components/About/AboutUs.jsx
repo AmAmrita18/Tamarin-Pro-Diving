@@ -3,37 +3,36 @@ import image1 from "../../assets/AboutImg1.png";
 import image2 from "../../assets/AboutImg2.png";
 import arrow from "../../assets/homeArrow.png";
 
-
 const AboutUs = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto pt-44 pb-64 flex flex-row">
-        <div className="w-[50%] relative py-20">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:pt-44 md:pb-64 pt-16 pb-16 flex md:flex-row flex-col-reverse">
+        <div className="md:w-[50%] relative md:py-20 py-8">
           <img
             src={image2}
             alt=""
-            className="w-[400px] h-[580px]"
+            className="md:w-[400px] md:h-[580px] w-[260px] h-[400px]"
             loading="lazy"
           />
-          <div className="absolute top-[320px] left-[250px]">
+          <div className="absolute md:top-[320px] md:left-[250px] top-[260px] left-[120px]">
             <img
               src={image1}
               alt=""
-              className="w-[400px] h-[470px]"
+              className="md:w-[400px] md:h-[470px] w-[200px] h-[300px]"
               loading="lazy"
             />
           </div>
         </div>
-        <div className="w-[50%] relative">
-          <div className=" absolute left-[-75px]">
+        <div className="md:w-[50%] relative">
+          <div className=" md:absolute left-[-75px]">
             <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
               About Us
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Travel Agency provides beautiful Dream Place for you{" "}
             </h1>
           </div>
-          <div className="absolute bottom-[-80px] ml-24 ">
+          <div className="md:absolute bottom-[-80px] md:ml-24md:mt-0 mt-5 ">
             <p className="text-[#1A1A1A] leading-[15.94px]  font-[400] text-[14px]">
               Founded in 2008, Tamarin Ocean Pro has swiftly become a
               cornerstone of diving in Mauritius, situated along the tranquil
@@ -61,32 +60,36 @@ const AboutUs = () => {
             </p>
             <div className="flex flex-row gap-10 mt-10">
               <div className="flex flex-col gap-y-2 items-center">
-                <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+                <h2 className="text-[#1A1A1A] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
                   Dive Guides
                 </h2>
-                <h1 className="text-[#1A1A1A] text-[46px] leading-[59.83px] font-[700]">
+                <h1 className="text-[#1A1A1A] md:text-[46px] text-[35px] leading-[59.83px] font-[700]">
                   20+
                 </h1>
               </div>
               <div className="flex flex-col gap-y-2 items-center">
-                <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+                <h2 className="text-[#1A1A1A] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
                   Dive Spots
                 </h2>
-                <h1 className="text-[#1A1A1A] text-[46px] leading-[59.83px] font-[700]">
+                <h1 className="text-[#1A1A1A] md:text-[46px] text-[35px] leading-[59.83px] font-[700]">
                   23+
                 </h1>
               </div>
               <div className="flex flex-col gap-y-2 items-center">
-                <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
+                <h2 className="text-[#1A1A1A] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
                   Happy Divers
                 </h2>
-                <h1 className="text-[#1A1A1A] text-[46px] leading-[59.83px] font-[700]">
+                <h1 className="text-[#1A1A1A] md:text-[46px] text-[35px] leading-[59.83px] font-[700]">
                   80k+
                 </h1>
               </div>
             </div>
-            <div className="absolute top-[330px] left-[-240px]">
-              <img src={arrow} alt="" className="w-[350px] h-[181px] rotate-45 " />
+            <div className="absolute md:block hidden top-[330px] left-[-240px]">
+              <img
+                src={arrow}
+                alt=""
+                className="w-[350px] h-[181px] rotate-45 "
+              />
             </div>
           </div>
         </div>

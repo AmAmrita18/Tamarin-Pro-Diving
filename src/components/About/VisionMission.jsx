@@ -8,12 +8,12 @@ import map2 from "../../assets/mapImg2.png";
 const VisionMission = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] py-20 mx-auto flex gap-44 relative">
+      <div className="w-[90%] max-w-[1200px] md:py-20 py-16 mx-auto md:px-0 px-4 flex md:flex-row flex-col md:gap-44 gap-16 relative">
         <div className="relative">
           <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
             Vision
           </h2>
-          <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+          <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Our Vision
           </h1>
           <p className="text-[#1A1A1A] leading-[15.94px]  font-[400] text-[14px] my-4">
@@ -31,34 +31,26 @@ const VisionMission = () => {
             Dive with us, and become part of a movement preserving the magic
             beneath the waves.
           </p>
-          
-          <div className="absolute left-[-80px] bottom-[-150px]">
+
+          <div className="absolute md:block hidden left-[-80px] bottom-[-150px]">
             <img src={map1} alt="" className=" w-[350px] h-[350px]" />
           </div>
         </div>
-        <div className="absolute bottom-[100px] left-[300px]">
-            <img
-              src={arrow1}
-              alt=""
-              className="w-[350px] h-[151px] rotate-6  "
-            />
-          </div>
-        <div className="absolute  top-[100px] right-[400px]">
-            <img
-              src={arrow2}
-              alt=""
-              className="w-[350px] h-[151px] rotate-6  "
-            />
-          </div>
+        <div className="absolute md:block hidden bottom-[100px] left-[300px]">
+          <img src={arrow1} alt="" className="w-[350px] h-[151px] rotate-6  " />
+        </div>
+        <div className="absolute md:block hidden  top-[100px] right-[400px]">
+          <img src={arrow2} alt="" className="w-[350px] h-[151px] rotate-6  " />
+        </div>
         <div className="relative">
-          <div className="absolute  right-[-70px] top-[-200px]">
+          <div className="absolute md:block hidden  right-[-70px] top-[-200px]">
             <img src={map2} alt="" className="w-[400px] h-[350px]" />
           </div>
-          
-          <h2 className="text-[#1A1A1A] mt-64 text-[20px] leading-[26.59px] font-[700]">
+
+          <h2 className="text-[#1A1A1A] md:mt-64 text-[20px] leading-[26.59px] font-[700]">
             Mission
           </h2>
-          <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700]">
+          <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Our Mission
           </h1>
           <p className="text-[#1A1A1A] leading-[15.94px]  font-[400] text-[14px] my-4">

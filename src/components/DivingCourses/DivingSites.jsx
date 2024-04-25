@@ -8,17 +8,17 @@ import { FaRegStar } from "react-icons/fa";
 const DivingSites = () => {
   return (
     <div className="w-full" id="DivingSites">
-      <div className="w-[90%] max-w-[1200px] mx-auto h-full pt-16 pb-28">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 h-full pt-16 md:pb-28 pb-16">
       <div>
-      <h2 className="text-[#1A1A1A] text-[30px] leading-[26.59px] font-[700] text-center">
+      <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] leading-[26.59px] font-[700] text-center">
           Diving Sites
         </h2>
-        <h1 className="text-[#1A1A1A] mt-6 text-[57px] leading-[59.78px] font-[700] text-center">
+        <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700] text-center">
           Popular Diving Sites Along the West Coast{" "}
         </h1>
 
       </div>
-        <div className="grid grid-cols-2 px-28 gap-x-32 gap-y-32 py-20">
+        <div className="grid md:grid-cols-2 grid-cols-1 md:px-28  gap-x-32 md:gap-y-32 md:py-20 py-8">
           <div>
             <div>
               <img src={img1} alt="" className="w-[457px] h-[598px]" />
@@ -46,7 +46,7 @@ const DivingSites = () => {
               </button>
             </div>
           </div>
-          <div className="mt-24">
+          <div className="md:mt-24 mt-16">
             <div>
               <img src={img2} alt="" className="w-[457px] h-[598px]" />
             </div>
@@ -75,7 +75,7 @@ const DivingSites = () => {
           </div>
           <div>
             <div>
-              <img src={img3} alt="" className="w-[457px] h-[598px]" />
+              <img src={img3} alt="" className="w-[457px] h-[598px] mt-16" />
             </div>
             <div className="">
               <h1 className="text-[40px] mt-10 font-[700] leading-[40px] text-[#1A1A1A]">
@@ -99,7 +99,7 @@ const DivingSites = () => {
               </button>
             </div>
           </div>
-          <div className="mt-24">
+          <div className="mt-16 md:mt-24 ">
             <div>
               <img src={img4} alt="" className="w-[457px] h-[598px]" />
             </div>
