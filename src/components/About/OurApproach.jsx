@@ -6,7 +6,7 @@ const OurApproach = () => {
   return (
     <div className="w-full">
       <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:pt-64 pb-16 pt-0  flex md:flex-row flex-col-reverse">
-        <div className="md:w-[50%] relative md:py-20">
+        <div className="md:w-[50%] relative md:py-20 lg:mr-0 md:mr-5">
           <img
             src={image1}
             alt=""
@@ -23,18 +23,18 @@ const OurApproach = () => {
           </div> */}
         </div>
         <div className="md:w-[50%] relative">
-          <div className="absolute md:block hidden top-[-90px] left-[150px]">
+          <div className="absolute md:block hidden lg:top-[-90px] md:top-[-150px] lg:left-[150px] md:left-[-50px]">
             <img
               src={arrow}
               alt=""
-              className="w-[230px] h-[221px] rotate-6"
+              className="w-[230px] h-[221px] lg:rotate-6"
             />
           </div>
           <div className=" md:absolute top-[-180px] left-[-400px]">
             <h2 className="text-[#1A1A1A]  text-[20px] leading-[26.59px] font-[700]">
               Our Approach
             </h2>
-            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] md:mb-0 mb-5 leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] md:mb-0 mb-5 leading-tight font-[700]">
               Our process <br /> Ensure Your Dive <br /> Is Safe and Fun
             </h1>
             <h1 className="text-[#1A1A1A] md:hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] md:mb-0 mb-5 leading-tight font-[700]">

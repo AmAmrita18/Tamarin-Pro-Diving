@@ -10,14 +10,14 @@ const AboutHome = () => {
           <img
             src={image1}
             alt=""
-            className="md:w-[400px] md:h-[580px] w-[260px] h-[400px]"
+            className="lg:w-[400px] lg:h-[580px] w-[260px] h-[400px]"
             loading="lazy"
           />
-          <div className="absolute md:top-[320px] md:left-[250px] top-[260px] left-[120px]">
+          <div className="absolute md:top-[320px] lg:left-[250px] top-[260px] left-[120px]">
             <img
               src={image2}
               alt=""
-              className="md:w-[400px] md:h-[470px] w-[200px] h-[300px]"
+              className="lg:w-[400px] lg:h-[470px] md:w-[220px] md:h-[330px] w-[200px] h-[300px]"
               loading="lazy"
             />
           </div>
@@ -27,7 +27,7 @@ const AboutHome = () => {
             <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
               About Us
             </h2>
-            <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Discover Serene Underwater Wonders With Us
             </h1>
           </div>
@@ -43,7 +43,7 @@ const AboutHome = () => {
             <button className="bg-[#011219] transition-all duration-700 ease-in-out  hover:scale-95 text-white mt-10 rounded-full px-16 py-3">
               See detail{" "}
             </button>
-            <div className="absolute md:block hidden top-[180px] left-[-220px]">
+            <div className="absolute md:block hidden lg:top-[180px] lg:left-[-220px] top-[270px] left-[-220px]">
               <img src={arrow} alt="" className="w-[295px] h-[161px] " />
             </div>
           </div>

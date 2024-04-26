@@ -13,7 +13,7 @@ const VisionMission = () => {
           <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
             Vision
           </h2>
-          <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+          <h1 className="text-[#1A1A1A] mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Our Vision
           </h1>
           <p className="text-[#1A1A1A] leading-[15.94px]  font-[400] text-[14px] my-4">
@@ -36,21 +36,21 @@ const VisionMission = () => {
             <img src={map1} alt="" className=" w-[350px] h-[350px]" />
           </div>
         </div>
-        <div className="absolute md:block hidden bottom-[100px] left-[300px]">
+        <div className="absolute md:block hidden lg:bottom-[100px] md:bottom-[30px]  lg:left-[300px] md:left-[240px]">
           <img src={arrow1} alt="" className="w-[350px] h-[151px] rotate-6  " />
         </div>
-        <div className="absolute md:block hidden  top-[100px] right-[400px]">
+        <div className="absolute md:block hidden  lg:top-[100px] lg:right-[400px] md:top-[40px] md:right-[300px]">
           <img src={arrow2} alt="" className="w-[350px] h-[151px] rotate-6  " />
         </div>
         <div className="relative">
-          <div className="absolute md:block hidden  right-[-70px] top-[-200px]">
+          <div className="absolute md:block hidden  lg:right-[-68px] right-[-40px] top-[-200px]">
             <img src={map2} alt="" className="w-[400px] h-[350px]" />
           </div>
 
           <h2 className="text-[#1A1A1A] md:mt-64 text-[20px] leading-[26.59px] font-[700]">
             Mission
           </h2>
-          <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+          <h1 className="text-[#1A1A1A] mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Our Mission
           </h1>
           <p className="text-[#1A1A1A] leading-[15.94px]  font-[400] text-[14px] my-4">

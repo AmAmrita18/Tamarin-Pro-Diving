@@ -63,7 +63,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className="flex md:gap-5 gap-16 flex-row">
+            <div className="flex md:gap-5 gap-16 lg:flex-row md:flex-col flex-row">
               <div>
                 <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] items-center">
                   Page
@@ -94,19 +94,19 @@ const Footer = () => {
               <h1 className="text-[#D5D9DB] leading-[26.59px] font-[700] text-[20px] pb-4 items-center">
                 Contact Us
               </h1>
-              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex flex-row text-[15px]">
+              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex lg:flex-row md:flex-col gap-y-2 flex-row text-[15px]">
                 <li>
                   <IoCallOutline className="w-6 h-6 text-[#D5D9DB]" />
                 </li>
                 <li>+230 5 786 95 54 / +230 5 728 20 27</li>
               </ul>
-              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex flex-row text-[15px]">
+              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex lg:flex-row md:flex-col gap-y-2 flex-row text-[15px]">
                 <li>
                   <FaRegEnvelope className="w-6 h-6 text-[#D5D9DB]" />
                 </li>
                 <li>contact@tamarinoceanprodiving.com</li>
               </ul>
-              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex flex-row text-[15px]">
+              <ul className="text-[#D5D9DB] font-[400] py-2 gap-x-4 flex lg:flex-row md:flex-col gap-y-2 flex-row text-[15px]">
                 <li>
                   <GrLocation className="w-6 h-6 text-[#D5D9DB]" />
                 </li>
@@ -122,7 +122,7 @@ const Footer = () => {
                 Reserve your dive today and embrace the wonders of Tamarin Bay.
                 Experience the marine splendor with top guides.
               </p>
-              <button className="bg-[#011219] text-white  rounded-full px-16 py-3 mt-6">
+              <button className="bg-[#011219] text-white  rounded-full lg:px-16 md:px-4 px-16 py-3 mt-6">
                 Book a Dive{" "}
               </button>
             </div>

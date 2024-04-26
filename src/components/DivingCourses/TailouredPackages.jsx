@@ -15,13 +15,13 @@ import img6 from "../../assets/Mask group (6).png";
 const TailouredPackages = () => {
   return (
     <div className="w-full">
-      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 pt-16 md:pt-0">
-        <div className="flex md:flow-row flex-col justify-between">
+      <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 md:py-32 pt-16 ">
+        <div className="flex md:flex-row flex-col justify-between">
           <div className="">
             <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] md:leading-[26.59px] leading-tight font-[700]">
               Tailored Packages
             </h2>
-            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Diverse Diving <br />
               Courses Curated For You{" "}
             </h1>
@@ -40,7 +40,7 @@ const TailouredPackages = () => {
             </p>
           </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-8">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-16 md:gap-y-24 gap-y-16 md:mt-20 mt-8">
           <div>
             <div>
               <img src={img1} alt="" className="md:w-[457px] md:h-[488px] w-[300px] h-[388px]" />

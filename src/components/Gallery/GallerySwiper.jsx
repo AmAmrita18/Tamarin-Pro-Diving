@@ -20,7 +20,7 @@ const GallerySwiper = () => {
             <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
               Gallery
             </h2>
-            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Moments captured by <br /> connoisseurs of The deep
             </h1>
             <h1 className="text-[#1A1A1A] mt-6 md:hidden md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">

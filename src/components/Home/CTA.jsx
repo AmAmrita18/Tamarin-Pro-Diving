@@ -13,7 +13,7 @@ const CTA = () => {
       }}
     >
       <div className="w-[90%] max-w-[1200px] mx-auto py-16">
-        <h1 className="font-[700] md:text-[70px] text-[50px] text-white md:leading-[85.15px] leading-tight text-center mt-5">
+        <h1 className="font-[700] lg:text-[70px] md:text-[60px] text-[50px] text-white md:leading-[85.15px] leading-tight text-center mt-5">
           Book Your Epic Dive Escape Now
         </h1>
         <p className="font-[400] leading-[19.94px] text-[15px] text-white mt-12 text-center ">

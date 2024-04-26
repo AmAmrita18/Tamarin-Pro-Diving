@@ -9,15 +9,15 @@ const FormContact = () => {
 
   return (
     <div className="w-full">
-      <div className="w-[90%] mx-auto md:px-0 px-4 max-w-[1200px] h-full flex md:flex-row flex-col-reverse md:py-32 py-16">
-        <div className="md:w-[55%] md:pr-24">
-          <h1 className="text-[#1A1A1A] mb-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+      <div className="w-[90%] mx-auto md:px-0 px-4 max-w-[1200px] h-full flex lg:flex-row flex-col-reverse md:py-32 py-16">
+        <div className="lg:w-[55%] mx-auto lg:pr-24">
+          <h1 className="text-[#1A1A1A] mb-6 lg:text-[57px] md:text-[50px]  text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Get In Touch
           </h1>
 
           <form action="#">
             <div>
-              <div className="flex md:flex-row flex-col md:gap-12 mb-5">
+              <div className="flex md:flex-row flex-col lg:gap-12 mb-5">
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
@@ -53,7 +53,7 @@ const FormContact = () => {
                   />{" "}
                 </div>
               </div>
-              <div className="flex md:flex-row flex-col md:gap-12 mb-5">
+              <div className="flex md:flex-row flex-col lg:gap-12 mb-5">
                 <div className="flex flex-col gap-y-3 w-full">
                   <label
                     htmlFor=""
@@ -89,7 +89,7 @@ const FormContact = () => {
                   />
                 </div>
               </div>{" "}
-              <div className="flex flex-col gap-y-3 w-full">
+              <div className="flex flex-col  gap-y-3 w-full">
                 <label
                   htmlFor=""
                   className="text-[#1A1A1A] md:mt-6 md:text-[35px] text-[20px] leading-[45.78px] font-[700]"
@@ -112,8 +112,8 @@ const FormContact = () => {
             </div>
           </form>
         </div>
-        <div className="md:w-[45%] md:block hidden md:mt-0 mt-8">
-          <img src={formImg} alt="" className="h-[920px] w-[680px] object-cover"/>
+        <div className="lg:w-[45%] md:block hidden mx-auto md:mt-0 mt-8 lg:mb-0 md:mb-10">
+          <img src={formImg} alt="" className="lg:h-[920px] md:h-[1120px] w-[680px] object-cover"/>
         </div>
       </div>
     </div>

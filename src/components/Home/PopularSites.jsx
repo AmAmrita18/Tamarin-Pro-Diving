@@ -15,7 +15,7 @@ const PopularSites = () => {
             <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
               Popular Diving Sites
             </h2>
-            <h1 className="text-[#1A1A1A] md:block hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+            <h1 className="text-[#1A1A1A] md:block hidden mt-6  lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
               Popular Diving Sites <br /> On the West Coast
             </h1>
             <h1 className="text-[#1A1A1A] md:hidden mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">

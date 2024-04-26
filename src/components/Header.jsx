@@ -37,7 +37,7 @@ const Header = () => {
             <img
               src={headerLogo}
               alt="Logo"
-              className=" object-cover lg:w-[50px]  lg:h-[50px] md:w-[90px] md:h-[100px] w-[40px] "
+              className=" object-cover lg:w-[50px]  lg:h-[50px] md:w-[45px] md:h-[45px] w-[40px] "
               width={50}
               height={50}
               loading="lazy"
@@ -45,7 +45,7 @@ const Header = () => {
             />
             
           </Link>
-          <h1 className='text-white md:block hidden leading-[26.59px] font-[700] md:text-[20px] text-[16px] items-center'>Tamarin Ocean Pro Diving Center</h1>
+          <h1 className='text-white lg:block hidden leading-[26.59px] font-[700] md:text-[20px] text-[16px] items-center'>Tamarin Ocean Pro Diving Center</h1>
         </div>
 
         <nav className="">

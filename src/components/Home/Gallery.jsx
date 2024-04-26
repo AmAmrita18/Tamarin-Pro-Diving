@@ -7,7 +7,7 @@ const Gallery = () => {
   return (
     <div className="w-full">
       <div className="w-[90%] flex md:flex-row flex-col-reverse max-w-[1200px] mx-auto md:px-0 px-4 md:py-36 py-16">
-        <div className="md:w-[65%] grid grid-cols-2 md:gap-x-8 gap-x-4 md:gap-y-8 gap-y-4">
+        <div className="md:w-[55%] lg:w-[65%] grid grid-cols-2 lg:gap-x-8 gap-x-4 lg:gap-y-8 gap-y-4">
           <div>
             <img src={image1} alt="" className="w-[374px] md:h-[553px] h-[350px] object-cover" />
           </div>
@@ -16,7 +16,7 @@ const Gallery = () => {
           </div>
           <div className="relative">
             <img src={image3} alt="" className="w-[374px] md:h-[363px] h-[260px] object-cover" />
-            <h1 className="absolute md:left-[80px] md:bottom-[350px] left-[25px] bottom-[190px] text-white md:text-[36px] text-[25px] md:leading-[48.75px] font-[700]">
+            <h1 className="absolute lg:left-[80px] lg:bottom-[350px] md:left-[30px] md:bottom-[310px] left-[25px] bottom-[190px] text-white md:text-[36px] text-[25px] md:leading-[48.75px] font-[700]">
               Tamarin Bay
             </h1>
           </div>
@@ -25,11 +25,11 @@ const Gallery = () => {
           </div>
         </div>
 
-        <div className="md:w-[35%] md:pl-16 md:py-44 pb-16 md:pb-0">
+        <div className="md:w-[45%] lg:w-[35%] lg:pl-16 md:pl-6 md:py-44 pb-16 md:pb-0">
           <h2 className="text-[#1A1A1A] text-[20px] leading-[26.59px] font-[700]">
             Gallery
           </h2>
-          <h1 className="text-[#1A1A1A] mt-6 mb-4 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
+          <h1 className="text-[#1A1A1A] mt-6 mb-4 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700]">
             Moments captured by connoisseurs of The deep
           </h1>
           <p className="text-[#1A1A1A] leading-[15.94px] font-[400] text-[14px] py-4">

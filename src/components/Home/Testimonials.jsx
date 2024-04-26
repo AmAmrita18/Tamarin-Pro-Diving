@@ -11,7 +11,7 @@ const Testimonials = () => {
   return (
     <div className="w-full">
       <div className="w-[90%] max-w-[1200px] mx-auto md:px-0 px-4 flex md:flex-row flex-col-reverse">
-        <div className="md:w-[50%]">
+        <div className="lg:w-[50%] md:w-[60%]">
           <div className="my-20 md:block hidden">
             <img
               src={arrow}
@@ -111,12 +111,12 @@ const Testimonials = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-[50%] md:block hidden md:relative ">
+        <div className="lg:w-[50%] md:w-[40%] md:block hidden md:relative ">
           <div className="absolute top-0 md:-left-40 left-0 ">
             <img
               src={image2}
               alt=""
-              className="md:w-[400px] md:h-[470px] w-[250px] h-[400px]"
+              className="lg:w-[400px] lg:h-[470px] w-[250px] h-[400px]"
               loading="lazy"
             />
           </div>
@@ -124,7 +124,7 @@ const Testimonials = () => {
             <img
               src={image1}
               alt=""
-              className="md:w-[781px] md:h-[810px] "
+              className="lg:w-[781px] lg:h-[810px] "
               loading="lazy"
             />
           </div>

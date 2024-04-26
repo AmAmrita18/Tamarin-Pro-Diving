@@ -13,12 +13,12 @@ const DivingSites = () => {
       <h2 className="text-[#1A1A1A] md:text-[30px] text-[20px] leading-[26.59px] font-[700] text-center">
           Diving Sites
         </h2>
-        <h1 className="text-[#1A1A1A] mt-6 md:text-[57px] text-[40px] md:leading-[59.78px] leading-tight font-[700] text-center">
+        <h1 className="text-[#1A1A1A] mt-6 lg:text-[57px] md:text-[50px] text-[40px] md:leading-[59.78px] leading-tight font-[700] text-center">
           Popular Diving Sites Along the West Coast{" "}
         </h1>
 
       </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 md:px-28  gap-x-32 md:gap-y-32 md:py-20 py-8">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:px-28  lg:gap-x-32 md:gap-x-16 md:gap-y-32 md:py-20 py-8">
           <div>
             <div>
               <img src={img1} alt="" className="md:w-[457px] md:h-[598px] w-[300px] h-[398px]" />
